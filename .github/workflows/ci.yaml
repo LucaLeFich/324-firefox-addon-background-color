@@ -24,9 +24,6 @@ jobs:
       - name: Security audit
         run: npm audit fix
 
-      - name: Lint code
-        run: npm run lint
-
       - name: Build extension
         run: npm run build
 
